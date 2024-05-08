@@ -1,4 +1,6 @@
 %Scenario 1: The system exhibits stable oscillations with a periodicity of approximately 70 months.
+clear all
+close all
 y0  = [0.75  0.15  8]; %i.e. plant, hare, lynx
 a1 = [5];
 a2  = [0.1];
@@ -19,6 +21,7 @@ ylabel('Population')
 legend('Plant','Hare','Lynx','Location','North')
 
 % Plot State plane
+figure
 plot3(y(:,1), y(:,2), y(:,3), 'b', 'LineWidth', 2)
 xlabel('Plants');
 ylabel('Hare');
