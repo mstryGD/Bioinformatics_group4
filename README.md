@@ -1,4 +1,8 @@
 # Bioinformatics_group4
+
+Annelies Ehren (i6303351)
+Roman Shchelkov (i6329330)
+Daniil Verlan (i6324289)
 The assignment encourages us to model a population relationship between 3 species, namely: plants, hares and lynx. The relationship between the populations of the latter is modelled in Matlab using a system of differential equations:
 
 ![image](https://github.com/mstryGD/Bioinformatics_group4/assets/169245920/2979533d-5738-4a51-b39c-1297b608168c)
