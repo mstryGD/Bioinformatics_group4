@@ -7,12 +7,13 @@ a2  = [0.1];
 b1 = [3];
 b2 = [2];
 d1 = [0.4];
-d2 = [0.2]; %changed parameter
+d2 = [0.2]; %Key changed parameter
 t0 = 0; 
 tfinal=200;
 tspan=[t0 tfinal];
-
+%Solve the model ODEs
 [t,y] = ode45(@(t,y) plants_hare_lynx(t,y,a1,a2,b1,b2,d1,d2), tspan, y0);
+%Plot time graphs
 figure("Name",'Plant-Hare-Lynx')
 plot(t,y)
 title('Plants/Hare/Lynx Populations Over Time')
